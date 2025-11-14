@@ -1,0 +1,162 @@
+#works {
+  display: grid;
+  justify-content: center;
+  padding: 72px 120px 144px 120px;
+  gap: 56px;
+  background: var(--gray-500);
+
+  header {
+    display: grid;
+    gap: 8px;
+    justify-items: center;
+
+    h3 {
+      color: var(--red);
+      font: var(--sb);
+    }
+
+    h2 {
+      color: var(--gray-100);
+      font: var(--title-md);
+    }
+  }
+
+  figure {
+    background-color: var(--gray-400);
+    padding: 12px;
+    display: grid;
+    border-radius: 12px;
+    gap: 20px;
+
+    div {
+      display: grid;
+      gap: 5px;
+      padding: 4px;
+
+      p {
+        color: var(--gray-200);
+        font: var(--mav-sm);
+      }
+    }
+  }
+
+  img {
+    width: 306px;
+    height: 156px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+
+
+  
+}
+
+#services {
+  display: grid;
+  justify-content: center;
+  padding: 88px 120px 120px 120px;
+  gap: 56px;
+  background: var(--gray-600);
+
+  header {
+    display: grid;
+    gap: 8px;
+    justify-items: center;
+
+    h3 {
+      color: var(--red);
+      font: var(--sb);
+    }
+
+    h2 {
+      color: var(--gray-100);
+      font: var(--title-md);
+    }
+  }
+
+  figure {
+    padding: 20px;
+    border: solid 2px var(--gray-500);
+    display: grid;
+    border-radius: 12px;
+    gap: 20px;
+
+    div {
+      display: grid;
+      gap: 5px;
+      padding: 4px;
+
+      p {
+        color: var(--gray-200);
+        font: var(--mav-sm);
+      }
+    }
+  }
+
+  
+
+
+
+}
+
+footer {
+  display: grid;
+  gap: 48px;
+  justify-items: center;
+  padding: 128px 120px 200px 120px;
+  background: url(../assets/Background_Contacts.png) no-repeat center/cover;
+
+  header {
+    display: grid;
+    justify-items: center;
+    gap: 8px;
+  }
+
+  h3 {
+    color: var(--red);
+    font: var(--sb);
+  }
+
+  h2 {
+    color: var(--gray-100);
+    font: var(--title-md);
+  }
+
+  p {
+    color: var(--gray-200);
+    font: var(--text-md);
+  }
+
+  ul {
+    list-style: none;
+    display: grid;
+    gap: 16px;
+  }
+
+  a {
+    text-decoration: none;
+    background: var(--gray-400);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    color: inherit;
+    color: var(--gray-200);
+    font: var(--text-md);
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    span {
+      width: 20px;
+      height: 20px;
+      background: url(../assets/icons/ArrowUpRight.png) no-repeat center/cover;
+    }
+  }
+}
