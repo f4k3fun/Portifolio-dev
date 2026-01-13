@@ -4,7 +4,7 @@ Projeto de **site pessoal de portfólio** desenvolvido para apresentar habilidad
 
 ## 📸 Pré-visualização
 
-![Preview do portifólio dev](capa-portifólio.png)
+![Preview do portifólio dev](capa-portifolio.png)
 
 Interface de portfólio em tema escuro, com:
 - Seção de apresentação profissional
